@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0fb720</color>
+    <color name="colorPrimaryDark">#48890b</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grey">#cccccc</color>
+    <color name="white">#ffffff</color>
+
+    <color name="popularmovies_light_green">#aef464</color>
+    <color name="popularmovies_green">#16de4e</color>
+    <color name="popularmovies_dark_green">#0fb700</color>
+
+
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="pref_spinner_key">PrefSpinner</string>
+    <string name="pref_spinner_value">SpinnerValue</string>
+    <string name="pref_spinner_default">most popular</string>
+    <string name="pref_name">MyAppPreferences</string>
+
+</resources>
