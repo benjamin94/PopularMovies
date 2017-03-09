@@ -76,9 +76,9 @@ public class FetchMoviesTask extends AsyncTask<Void,Void,String> {
         final SharedPreferences preferences = mContex.getSharedPreferences(String.valueOf(R.string.pref_name), 0);
         String value = preferences.getString(String.valueOf(R.string.pref_spinner_key), String.valueOf(R.string.pref_spinner_default));
 
-        if      (value.equals("most popular"))     sortOrder = MoviesContract.SORT_POPULARITY;
-        else if (value.equals("highest rated"))    sortOrder = MoviesContract.SORT_RATING; //vote_average.desc
-        else if (value.equals("favorites")){
+        if      (value.equals("Most Popular"))     sortOrder = MoviesContract.SORT_POPULARITY;
+        else if (value.equals("Highest Rated"))    sortOrder = MoviesContract.SORT_RATING; //vote_average.desc
+        else if (value.equals("Favorites")){
             sortOrder = MoviesContract.SORT_POPULARITY;
         }
         else sortOrder = MoviesContract.SORT_POPULARITY;
